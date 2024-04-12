@@ -41,3 +41,6 @@ body {
 .main-ques ul{
     list-style-type: none;
 }
+.ques{
+    margin-top: 250px;
+}

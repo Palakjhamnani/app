@@ -16,7 +16,7 @@
                 <ul class="container mt-5 py-5 ">
                     <li>
                         <div>
-                            <h4>What is the difference between supervised and unsupervised learning?</h4>
+                            <h5>What is the difference between supervised and unsupervised learning?</h5>
                             <div class="container mt-3">
                                 <div class="row justify-content-center">
                                     <div class="col-md-6">
@@ -27,12 +27,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <button class="btn btn-outline-primary mt-2" type="submit"><a href="feedback1.html">Submit</a></button>
 
                         </div>
                     </li>
                     <li class="mt-5 ">
                         <div>
-                            <h4>What is overfitting, and how can it be prevented?</h4>
+                            <h5>What are the different types of machine learning algorithms?</h5>
                             <div class="container mt-3">
                                 <div class="row justify-content-center">
                                     <div class="col-md-6">
@@ -43,12 +44,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <button class="btn btn-outline-primary mt-2" type="submit">Submit</button>
 
                         </div>
                     </li>
                     <li class="mt-5  ">
                         <div>
-                            <h4>Explain the bias-variance tradeoff?</h4>
+                            <h5>How do you evaluate the performance of a machine learning model ?</h5>
                             <div class="container mt-3">
                                 <div class="row justify-content-center">
                                     <div class="col-md-6">
@@ -59,12 +61,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <button class="btn btn-outline-primary mt-2" type="submit">Submit</button>
 
                         </div>
                     </li>
                     <li class="mt-5 ">
                         <div>
-                            <h4>What is cross-validation, and why is it important in machine learning?</h4>
+                            <h5> What are some common applications of machine learning in industry?</h5>
                             <div class="container mt-3">
                                 <div class="row justify-content-center">
                                     <div class="col-md-6">
@@ -75,12 +78,13 @@
                                     </div>
                                 </div>
                             </div>
+                            <button class="btn btn-outline-primary mt-2" type="submit">Submit</button>
 
                         </div>
                     </li>
                     <li class="mt-5 ">
                         <div>
-                            <h4>Can you explain the concept of feature engineering?</h4>
+                            <h5>What are some challenges and limitations of machine learning ?</h5>
                             <div class="container mt-3">
                                 <div class="row justify-content-center">
                                     <div class="col-md-6">
@@ -91,6 +95,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <button class="btn btn-outline-primary mt-2" type="submit">Submit</button>
 
                         </div>
                     </li>
@@ -126,11 +131,6 @@
                         const blob = new Blob(chunks, { type: 'audio/wav' });
                         chunks = [];
                         const audioUrl = URL.createObjectURL(blob);
-                        var a = document.createElement('a');
-                        a.href = audioUrl;
-                        a.download ='test.webm';
-                        a.click();
-                        window.URL.revokeObjectURL(audioUrl);
                         audioElement.src = audioUrl;
 
                     };
